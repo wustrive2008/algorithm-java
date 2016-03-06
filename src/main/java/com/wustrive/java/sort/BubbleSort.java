@@ -19,8 +19,7 @@ public class BubbleSort {
 	 * @param data
 	 *            待排序列
 	 */
-	public void bubble_sort(int[] data) {
-		int len = data.length;
+	public void bubble_sort(int[] data,int len) {
 		boolean change = false;
 		for (int i = 0; i < len - 1; i++) {
 			for (int j = 0; j < len - 1; j++) {
@@ -43,7 +42,7 @@ public class BubbleSort {
 	public static void main(String[] args) {
 		BubbleSort bubbleSort = new BubbleSort();
 		int[] data = { 3, 4, 9, 0, 1, 5, 2, 5, 3, 7, 6 };
-		bubbleSort.bubble_sort(data);
+		bubbleSort.bubble_sort(data, data.length);
 		for (int i : data) {
 			System.out.print(i + " ");
 		}
