@@ -14,7 +14,7 @@ package com.wustrive.java.search;
  */
 public class SeqSearch {
 	
-	public int seqSearch(int[] data,int k){
+	public int searchBySeq(int[] data,int k){
 		
 		for (int i = 0; i < data.length; i++) {
 			if(data[i] == k){
@@ -30,7 +30,7 @@ public class SeqSearch {
 		int k = 3;
 		int[] data = {4,5,6,32,3,4,6,2,1,9};
 		
-		int index = seqSearch.seqSearch(data, k);
+		int index = seqSearch.searchBySeq(data, k);
 		
 		System.out.println("目标位置:"+index);
 	}
