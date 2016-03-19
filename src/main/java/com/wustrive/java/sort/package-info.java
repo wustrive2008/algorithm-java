@@ -23,4 +23,7 @@ package com.wustrive.java.sort;
  * 基数排序		O(logR^B)		O(n)		稳定
  * 二叉树排序		O(nlogn)		O(n)		稳定
  * 计数排序		O(n+k)			O(n+k)		稳定
+ * 
+ * 参考：http://www.jianshu.com/p/f5baf7f27a7e
+ *
  */
